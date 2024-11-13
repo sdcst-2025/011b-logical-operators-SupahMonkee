@@ -30,3 +30,9 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+import math, statistics
+
+x = int(input('Enter an integer=> '))
+y = int(input('Enter an integer=> '))
+z = int(input('Enter an integer=> '))
+

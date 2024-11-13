@@ -26,3 +26,22 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+import math
+
+x = int(input('Enter a number: '))
+y = int(input('Enter another number: '))
+
+if x > y or x == y:
+    a = x
+    b = y
+else:
+    a = y
+    b = x
+
+if a/b == int(a/b):
+    print(f'{b} is a factor of {a}')
+else:
+    print(f'{b} is not a factor of {a}')
+
+#done
+max
