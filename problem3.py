@@ -36,3 +36,13 @@ x = int(input('Enter an integer=> '))
 y = int(input('Enter an integer=> '))
 z = int(input('Enter an integer=> '))
 
+a = min(x,y,z)
+b = statistics.median([x,y,z])
+c = max(x,y,z)
+
+if (math.pow(a,2) + math.pow(b,2)) == math.pow(c,2):
+    print(f"{a},{b},{c} form a Pythagorean triple")
+else:
+    print(f"{a},{b},{c} do not form a Pythagorean triple")
+
+#done
